@@ -1,5 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    font-family: "Red Hat Display",
+        sans-serif;
+    text-decoration: none;
+    color: rgba(22, 28, 36, 1);
+}
+header{
+    width: 1440px;
+    height: 80px;
+    padding: 0 60px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 18rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-ul{
+    width: auto;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+header .logo-ul img{
+    height: 42px;
+}
+header .logo-ul ul{
+    width: 502px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.number-shop{
+    gap: 2rem;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.number i{
+    color: blue;
+}
+.shop{
+    display: flex;
+    gap: 1rem;
+}
+.solid{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(22, 28, 36, 1);
+}
 .container{
-    width: 500px;
-    height: 500px;
-    background-color: aqua;
+    width: 1440px;
+    height: 80px;
+    padding: 0 60px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    /* align-items: center; */
+    justify-content: left;
+}
+.glavni{
+    display: flex;
+    justify-content: start;
+    /* width: 138px; */
+    height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+h1{
+    margin-top: 50px;
+
+}
+h1 span{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+/* filter qilish qismi */
+.filtir{
+    margin: 2rem 0;
+    height: 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.filtir-left{
+    width: 50%;
+    display: flex;
+    gap: 2rem;
+}
+.sbros{
+    width: 288px;
+    height: 40px;
+    border: 1px solid rgba(173, 215, 255, 1);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.elektronik{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elektronik i{
+    color: red;
+    margin-left: 10px;
+}
+.filtir-right{
+    width: 194px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(173, 215, 255, 1);
+    box-sizing: border-box;
+}
+/* main bo`limlar va tovrlar qismi style */
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+.main-left{
+    width: 288px;
+    height: 460px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.main-left h1{
+    margin-top: 0;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+.sena-how{
+    width: 240px;
+    height: 148px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(234, 234, 234, 1);
+}
+.chiziq-botton{
+    border-bottom: 1px solid rgba(234, 234, 234, 1);
+    margin: 0.5rem 0;
+
+}
+.sena{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sena i{
+    color: blue;
+}
+.how{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    gap: 2rem;   
+}
+.how-box{
+    width: 116px;
+    height: 100%;
+    border: 1px solid rgba(234, 234, 234, 1);
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
 }
