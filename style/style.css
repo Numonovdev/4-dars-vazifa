@@ -141,7 +141,8 @@ h1 span{
 .main{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    gap: 2rem;
+    /* justify-content: space-between; */
     /* background-color: aqua; */
 }
 .main-left{
@@ -198,4 +199,52 @@ h1 span{
     justify-content: center;
     align-items: center;
     font-weight: 700;
+}
+
+.main-right{
+    width: 924px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.main-right .box{
+    box-sizing: border-box;
+    width: 288px;
+    height: 453px;
+    border: 1px solid rgba(234, 234, 234, 1);
+}
+.box-img{
+    width: 288px;
+    height: 320px;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.box-img img{
+    width: 288px;
+    height: 320px;
+    
+}
+.box-text{
+    padding: 15px 10px;
+    box-sizing: border-box;
+}
+.text-top{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.text-top p{
+    font-size: 13px;
+}
+.box-text p{
+     margin: 5px 0;
+}
+.box-text h1{
+    margin-top:  15px;
+    font-size: 23px;
+}
+.box-text h1 span{
+    margin-left: 15px;
+    text-decoration: line-through;
+    text-decoration-color: black;
 }
